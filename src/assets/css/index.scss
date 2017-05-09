@@ -1,0 +1,18 @@
+@import './router.scss';
+
+/** 处理安卓下适配问题 */
+* {
+  max-height:1000000px;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: .16rem;
+  .ci-container {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+}
