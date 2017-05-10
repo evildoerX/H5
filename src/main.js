@@ -17,7 +17,6 @@ import {
 } from 'vux'
 // import css
 import 'vux/src/styles/reset.less'
-import 'ci-components-h5/css/index.scss'
 
 // use module
 Vue.use(LoadingPlugin)

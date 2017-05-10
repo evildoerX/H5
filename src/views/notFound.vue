@@ -1,15 +1,14 @@
 <template>
-  <ci-not-found class="not-found" />
+  <div>
+    404
+  </div>
 </template>
 
 <script>
-  import {
-    CiNotFound
-  } from 'ci-components-h5'
+
   export default {
 
     components: {
-      CiNotFound
     }
 
   }
